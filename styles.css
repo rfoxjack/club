@@ -20,6 +20,7 @@ nav {
     margin: 0;
     justify-content:center;
     align-items:flex-end;
+    border-bottom: 4px solid white;
 }
 
 nav ul {
@@ -45,7 +46,7 @@ nav a:hover {
 /* Main Content */
 main {
     position: relative;
-    top: 100px;
+    top: 104px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,10 +59,32 @@ header {
     justify-content:center;
 }
 
+#about {
+    background-color: #B34AE8;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+}
+
+#reading {
+    background-color:#38E070;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#testimonials {
+    background-color: #D40427;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .heading-box {
     background-color:#D40427;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border: 10px solid yellow;
     display: flex;
     justify-content: center;
@@ -76,14 +99,126 @@ h1 {
 h2 {
     font-size: 2rem;
     text-align:center;
+    font-weight: 500;
 }
 
 .subheading-box {
     background-color: #38E070;
-    width:200px;
-    height:200px;
+    width:300px;
+    height:300px;
     border: 10px solid yellow;
     display: flex;
     align-items: center;
     justify-content:center;
+}
+
+.about-box {
+    background-color: dodgerblue;
+    width: 300px;
+    height: 300px;
+    border: 10px solid #B34AE8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-description-box {
+    background-color:white;
+    width: 284px;
+    height: 284px;
+    border: 10px solid #B34AE8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding: 8px;
+    font-size: 1.2rem;
+    color:rgba(0,0,0,0.8)
+}
+
+.reading-box {
+    background-color: #D40427;
+    width: 300px;
+    height: 300px;
+    border: 10px solid #38E070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+.testimonial-box {
+    background-color: yellow;
+    width: 284px;
+    height: 284px;
+    border: 10px solid #D40427;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.reading-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.reading-gallery img {
+    width:150;
+    height:225px;
+    border: 8px solid #38E070;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 300px;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 150px;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.testimonial-odd {
+    background-color: yellow;
+    height: 25%;
+    width:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.testimonial-even {
+    background-color: dodgerblue;
+    height: 25%;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-style: italic;
+    font-weight: 600;
+}
+
+footer {
+    background-color: dodgerblue;
+    width: 100%;
 }
