@@ -55,5 +55,35 @@ header {
     background-color: yellow;
     width: 100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
+}
+
+.heading-box {
+    background-color:#D40427;
+    width: 200px;
+    height: 200px;
+    border: 10px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align:center;
+}
+
+.subheading-box {
+    background-color: #38E070;
+    width:200px;
+    height:200px;
+    border: 10px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
